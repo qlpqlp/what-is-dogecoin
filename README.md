@@ -1,2 +1,2 @@
 # what-is-dogecoin
-A collections of usefull coded script to use on your website, online store and buisness
+A collection of useful coded script to use on your website, online store and business
