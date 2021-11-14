@@ -52,6 +52,8 @@
     <?php include("inc/markers/inc/Tesla.php"); ?>
     <!-- We Include the The Ocean Cleanup Interceptors -->
     <?php include("inc/markers/inc/TheOceanCleanup.php"); ?>
+    <!-- We Include the The DogeEggs -->    
+    <?php include("inc/markers/inc/DogeEggs.php"); ?>
     <!-- We Include the DogeCoin Nodes -->
     <?php include("inc/markers/inc/DogecoinNodes.php"); ?>
     <!-- We Include the Twitter API -->
