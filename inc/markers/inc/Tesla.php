@@ -2,7 +2,7 @@
 /**
 *   File: Tesla Markers
 *   Author: https://twitter.com/inevitable360 and all #Dogecoin friends and familly helped will try to find a way to put all names eheh!
-*   Description: Real use case of the dogecoin.com CORE Wallet connected by RCP Calls using Old School PHP Coding with easy to learn steps (I hope lol)
+*   Description: Real use case of the dogecoin.com CORE Wallet connected by RPC Calls using Old School PHP Coding with easy to learn steps (I hope lol)
 *   License: Well, do what you want with this, be creative, you have the wheel, just reenvent and do it better! Do Only Good Everyday
 */
 ?>

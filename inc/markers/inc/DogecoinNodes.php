@@ -2,7 +2,7 @@
 /**
 *   File: DogeCoin Nodes
 *   Author: https://twitter.com/inevitable360 and all #Dogecoin friends and familly helped will try to find a way to put all names eheh!
-*   Description: Real use case of the dogecoin.com CORE Wallet connected by RCP Calls using Old School PHP Coding with easy to learn steps (I hope lol)
+*   Description: Real use case of the dogecoin.com CORE Wallet connected by RPC Calls using Old School PHP Coding with easy to learn steps (I hope lol)
 *   License: Well, do what you want with this, be creative, you have the wheel, just reenvent and do it better! Do Only Good Everyday
 */
 
@@ -12,8 +12,8 @@
     // Here we generate a random number to hode the DogeEggs below
     $HideDogeEgg = rand(100,1000);
 
-    // Now we will find all nodes that have the Longitude and Latitude fields filled, to display them on the Map, but only the last 7 days nodes that where updated recently because of the offline nodes or dynamic IP's
-    $db = $pdo->query("SELECT * FROM nodes where lat !='' and lon !='' and date >= DATE(NOW()) - INTERVAL 7 DAY order by lat,lon");
+    // Now we will find all nodes that have the Longitude and Latitude fields filled, to display them on the Map, but only the last 14 days nodes that where updated recently because of the offline nodes or dynamic IP's
+    $db = $pdo->query("SELECT * FROM nodes where lat !='' and lon !='' and date >= DATE(NOW()) - INTERVAL 14 DAY order by lat,lon");
     while ($row = $db->fetch()) {
 
       // We try to fix the location wen the same node is in the same longitude and latitude then outhers

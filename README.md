@@ -15,10 +15,11 @@ Doge Nodes Map
 
 4- Open the file with any text editor ```inc/config.php``` and follow the configurations needed
 
-5- Upload all files (excluding nodes.sql and readme.md) to your Hosting Account and enjoy it :)
+5- Upload all files (excluding nodes.sql and readme.md) to your Hosting Account
+
+6- Add a cron task to the file cron.php, and let it run every minute and enjoy it :)
 
 ###Notes:
 
 - Later will add the DogeEggs dynamic Logic on the file ```inc/markers/DogeEggs.php```
-- Also will include the instructions for the ```Dogecoin-PHP-Bridge``` that feeds your Data Base with realtime data from Dogecoin Core Wallet installed on your local computer or in a web server using RCP :)
 - Open the files, try to understand how it works, make some changes and test it, learn with this :)
