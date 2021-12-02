@@ -1,7 +1,7 @@
 <h1 align="center">
 What is Dogecoin?
 <br><br>
-<img src="https://what-is-dogecoin.com/imgdogecoin.png" alt="What is Dogecoin?" width="300"/>
+<img src="https://what-is-dogecoin.com/img/dogecoin.png" alt="What is Dogecoin?" width="300"/>
 <br><br>
 </h1>
 
